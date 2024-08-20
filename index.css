@@ -3,6 +3,7 @@ body{
 }
 
 .menu{
+    display: flex;
     width: 500px;
     height: 50px;
 }
