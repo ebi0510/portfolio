@@ -3,7 +3,8 @@ body{
 }
 
 .menu{
-        width: 500px;
+    width: 500px;
+    height: 20px;
 }
 
 ul{
