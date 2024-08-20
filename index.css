@@ -7,11 +7,15 @@ body{
     height: 20px;
 }
 
-ul{
+.nikukyu{
+    height: auto;
+}
+
+ul.menu{
     display: flex;
    }
 
-li{
+li.menu{
     list-style: none;
     margin-left: 20px;
 }
