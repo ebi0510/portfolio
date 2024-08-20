@@ -12,11 +12,11 @@ body{
     width: auto;
 }
 
-ul.menu{
+ul{
     display: flex;
    }
 
-li.menu{
+li{
     list-style: none;
     margin-left: 20px;
 }
