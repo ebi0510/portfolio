@@ -25,6 +25,14 @@ li{
     margin-left: 20px;
 }
 
+.button{
+    background: salmon; 
+    color: #fff; 
+    padding: 16px 40px; 
+    text-decoration: none; 
+    border-radius: 30px;
+}
+
 #top{
     text-align: center;
 }
