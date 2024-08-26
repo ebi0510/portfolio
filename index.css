@@ -61,6 +61,10 @@ li{
     flex-direction: row;
 }
 
+.ebi{
+    height: 200px;
+}
+
 #production{
     text-align: center;
 }
