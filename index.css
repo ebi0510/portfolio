@@ -49,6 +49,11 @@ li{
 
 #profile{
     text-align: center; 
+
+}
+
+.content_profile{
+    text-align: center; 
     display: flex;   
     flex-direction: row;
 }
