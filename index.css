@@ -40,3 +40,19 @@ li{
 .shiba{
     height: 200px;
 }
+
+#about{
+    text-align: center;
+}
+
+#profile{
+    text-align: center;    
+}
+
+#production{
+    text-align: center;
+}
+
+#skill{
+    text-align: center;
+}
