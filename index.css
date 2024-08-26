@@ -10,10 +10,12 @@ body{
 
 .menu_text{
     display: flex;
+    width: 50%;
 }
 
 .nikukyu{
     height: 50px;
+    padding: 16px;
 }
 
 ul{
