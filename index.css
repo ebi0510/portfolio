@@ -12,7 +12,7 @@ html{
     display: flex;
     background-color: rgba(238,220,179,0.5);
     width: 100%;
-    height: 70px;
+    height: 20%;
     position: fixed;
     top: 0;
     z-index: 10000;
@@ -46,13 +46,14 @@ li{
 
 .dummy_menu{
     background-color: white;
-    height: 70px;
+    height: 20%;
 }
 
 /* タイトル画面 */
 #top{
     text-align: center;
     background-color: #ffd980;
+    height: 80%;
 }
 
 .shiba{
