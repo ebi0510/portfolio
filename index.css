@@ -84,13 +84,34 @@ li{
 /* 制作物 */
 #production{
     height: 90%;
+    text-align: center;
+}
+
+
+.text_production{
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
+.blackjack{
+    width: 30%;
+}
+
+.pic_bj{
+    height: 170px;
+}
+
 .text_production{
     text-align: center;
+}
+
+.sliding15puzzle{
+    width: 30%;
+}
+
+.pic_sp{
+    width: 170px;
 }
 
 /* スキル */
