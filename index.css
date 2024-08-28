@@ -34,7 +34,8 @@ ul{
 
 li{
     list-style: none;
-    margin-left: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 .button{
@@ -52,35 +53,38 @@ li{
 
 /* タイトル画面 */
 #top{
+    height: 100%;
     text-align: center;
     background-color: #f9da92;
-    height: 90%;
+    font-size: 100%;
 }
 
 .shiba{
     height: 50%;
 }
 
-h1#top{
-    font-size: 40%;
-}
-
 /* このサイトについて */
 #about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text_about{
     text-align: center;
-    height: 90%;
 }
 
 /* プロフィール */
 #profile{
     text-align: center; 
-    height: 90%;
+    background-color: rgba(232,221,194,0.3)
 }
 
 .content_profile{
-    text-align: center; 
+    justify-content: flex-end;
     display: flex;   
     flex-direction: row;
+    align-items: center;
 }
 
 .ebi{
@@ -89,12 +93,23 @@ h1#top{
 
 /* 制作物 */
 #production{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text_production{
     text-align: center;
-    height: 90%;
 }
 
 /* スキル */
 #skill{
+    display: flex;
+    background-color: rgba(232,221,194,0.3);
+    justify-content: center;
+    align-items: center;
+}
+
+.text_skill{
     text-align: center;
-    height: 90%;
 }
