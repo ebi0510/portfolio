@@ -68,11 +68,13 @@ h1#top{
 /* このサイトについて */
 #about{
     text-align: center;
+    height: 90%;
 }
 
 /* プロフィール */
 #profile{
     text-align: center; 
+    height: 90%;
 }
 
 .content_profile{
@@ -88,9 +90,11 @@ h1#top{
 /* 制作物 */
 #production{
     text-align: center;
+    height: 90%;
 }
 
 /* スキル */
 #skill{
     text-align: center;
+    height: 90%;
 }
