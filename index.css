@@ -20,11 +20,12 @@ html{
 
 .menu_text{
     display: flex;
+    margin: 0 auto;
 }
 
 .nikukyu{
-    height: 50px;
-    padding: 16px;
+    height: 80%;
+    margin: 0 auto;
 }
 
 ul{
