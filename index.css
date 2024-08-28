@@ -26,7 +26,8 @@ html{
 
 .nikukyu{
     height: 80%;
-    margin: 0 auto;
+    margin-right: auto;
+    margin-left: 5%;
 }
 
 ul{
@@ -111,6 +112,22 @@ li{
 }
 
 .pic_sp{
+    width: 170px;
+}
+
+.RESAS_API{
+    width: 30%;
+}
+
+.pic_RE{
+    width: 170px;
+}
+
+.connpass{
+    width: 30%;
+}
+
+.pic_con{
     width: 170px;
 }
 
