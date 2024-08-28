@@ -55,7 +55,7 @@ li{
 
 /* タイトル画面 */
 #top{
-    height: 80%;
+    height: 90%;
     text-align: center;
     background-color: #f9da92;
     font-size: 100%;
@@ -91,6 +91,7 @@ li{
 
 .text_production{
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
 }
