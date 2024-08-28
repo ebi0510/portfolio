@@ -65,6 +65,7 @@ li{
 
 /* このサイトについて */
 #about{
+    height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -76,6 +77,7 @@ li{
 
 /* プロフィール */
 #profile{
+    height: 100%;
     text-align: center; 
     background-color: rgba(232,221,194,0.3)
 }
@@ -93,6 +95,7 @@ li{
 
 /* 制作物 */
 #production{
+    height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -104,6 +107,7 @@ li{
 
 /* スキル */
 #skill{
+    height: 100%;
     display: flex;
     background-color: rgba(232,221,194,0.3);
     justify-content: center;
