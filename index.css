@@ -8,6 +8,11 @@ html{
     height: 100%;
 }
 
+h1{
+    text-align: center;
+    margin: 0;
+}
+
 /* メニュー */
 .menu{
     display: flex;
@@ -17,11 +22,13 @@ html{
     position: fixed;
     top: 0;
     z-index: 10000;
+    align-items: center;
 }
 
 .menu_text{
     display: flex;
     height: 90%;
+    align-items: center;
 }
 
 .nikukyu{
@@ -58,24 +65,31 @@ li{
     height: 90%;
     text-align: center;
     background-color: #f9da92;
-    font-size: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .shiba{
-    height: 50%;
+    height: 250px;
+    margin: 0 auto;
 }
 
 /* プロフィール */
 #profile{
-    height: 90%;
-    display: flex;  
-    background-color: rgba(232,221,194,0.3)
+    height: 90%; 
+    text-align: center;
+    background-color: rgba(232,221,194,0.3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .content_profile{
     display: flex;   
     justify-content: center;
     align-items: center;
+    margin: 5%;
 }
 
 .ebi{
@@ -86,8 +100,14 @@ li{
 #production{
     height: 90%;
     text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
+.layout_production{
+    margin: 0 auto;
+}
 
 .text_production{
     display: flex;
@@ -96,40 +116,62 @@ li{
     align-items: center;
 }
 
-.blackjack{
-    width: 30%;
-}
-
-.pic_bj{
-    height: 170px;
-}
-
 .text_production{
     text-align: center;
 }
 
+.chatclone{
+    width: 28%;
+    margin: 1% 2%;
+}
+
+.pic_cc{
+    height: 100px;
+}
+
+.blackjack{
+    width: 28%;
+    margin: 1% 2%;
+}
+
+.pic_bj{
+    height: 100px;
+}
+
 .sliding15puzzle{
-    width: 30%;
+    width: 28%;
+    margin: 1% 2%;
 }
 
 .pic_sp{
-    width: 170px;
+    height: 100px;
 }
 
 .RESAS_API{
-    width: 30%;
+    width: 28%;
+    margin: 1% 2%;
 }
 
 .pic_RE{
-    width: 170px;
+    height: 100px;
 }
 
 .connpass{
-    width: 30%;
+    width: 28%;
+    margin: 1% 2%;
 }
 
 .pic_con{
-    width: 170px;
+    height: 100px;
+}
+
+.portfolio{
+    width: 28%;
+    margin: 1% 2%;
+}
+
+.pic_port{
+    height: 100px;
 }
 
 /* スキル */
