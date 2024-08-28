@@ -61,6 +61,10 @@ li{
     height: 30%;
 }
 
+h1#top{
+    font-size: 20%;
+}
+
 /* このサイトについて */
 #about{
     text-align: center;
