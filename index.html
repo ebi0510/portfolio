@@ -6,7 +6,6 @@
     <link rel="stylesheet" href="index.css">
   </head>
   <body>
-    <div class="dummy_menu"></div>
     <div class="menu">
       <img class="nikukyu" src="picture/nikukyu_kuro.png">
       <ul class ="menu_text">
@@ -52,38 +51,70 @@
           <div class="chatclone">
             <img class="pic_cc" src="picture/chatclone.png"> 
             <p>チャットツールのクローン</p>
-            <p>HTML,CSS,JavaScriptを使って初めて制作。APIを使ってチャットの送信やグループチャットの情報の取得ができます。</p>
+            <!-- <p>HTML,CSS,JavaScriptを使って初めて制作。APIを使ってチャットの送信やグループチャットの情報の取得ができます。</p> -->
             <p>※トークンを使用しているため非公開。</p>
           </div>
           <div class="blackjack">
-            <img class="pic_bj" src="picture/blackjack.png">
-            <p>ブラックジャック</p>
-            <p>ターミナル上で遊べるブラックジャックです。</p>
-            <a href="https://github.com/ebi0510/blackjack">GitHub</a>
+              <img class="modalBtn" data-modal="modal1" src="picture/blackjack.png">
+              <p>一人用ブラックジャック</p>
+              <div id="modal1" class="modal">
+                <div class="modal-content">
+                  <video class="movie" src="movie/movie_blackjack.mp4" autoplay muted></video><br>
+                  <p>ターミナル上で遊べる一人用ブラックジャックです。</p>
+                  <p>引いたカードや選んだコマンドによってBLACK JACK,BUST,途中終了します。このスクリプトを通して配列の基礎的な操作方法を学習しました。</p>
+                  <a href="https://github.com/ebi0510/blackjack">GitHub</a><br>
+                  <button class="btn_close">✖︎</button>
+                </div>
+              </div>
           </div>
           <div class="sliding15puzzle">
-            <img class="pic_sp" src="picture/sliding15puzzle.png">
+            <img class="modalBtn" data-modal="modal2" src="picture/sliding15puzzle.png">
             <p>スライディングパズル</p>
-            <p>16マスからなるスライディングパズルです。</p>
-            <a href="https://github.com/ebi0510/sliding15puzzle">GitHub</a>
+              <div id="modal2" class="modal">
+                <div class="modal-content">
+                  <video class="movie" src="movie/movie_slidingpuzzle.mov" autoplay muted></video><br>
+                  <p>16マスからなるスライディングパズルです。</p>
+                  <a href="https://github.com/ebi0510/sliding15puzzle">GitHub</a><br>
+                  <button class="btn_close">✖︎</button>
+                </div>
+              </div>
           </div>
           <div class="RESAS_API">
-            <img class="pic_RE" src="picture/RESAS_API.png">
+            <img class="modalBtn" data-modal="modal3" src="picture/RESAS_API.png">
             <p>都道府県別の人工統計データ表示するサイト</p>
-            <p>地域経済分析システムのデータを都道府県別×データ種別で表示するサイトです。</p>
-            <a href="https://github.com/ebi0510/RESAS-API">GitHub</a>
+              <div id="modal3" class="modal">
+                <div class="modal-content">
+                  <video class="movie" src="movie/movie_RESAS.mov" autoplay muted></video><br>
+                  <p>地域経済分析システムのデータを都道府県別×データ種別で表示するサイトです。</p><br>
+                  <a href="https://github.com/ebi0510/RESAS-API">GitHub</a><br>
+                  <button class="btn_close">✖︎</button>
+                </div>
+              </div>
           </div>
           <div class="connpass">
-            <img class="pic_con" src="picture/connpass_logo_3.png">
+            <img class="modalBtn" data-modal="modal4" src="picture/connpass_logo_3.png">
             <p>connpassのデータを取得するスクリプト</p>
-            <p>イベント開催時に参加者のデータを取得するスクリプトです。</p>
-            <a href="https://github.com/ebi0510/getconnpassData">GitHub</a>
+              <div id="modal4" class="modal">
+                <div class="modal-content">
+                  <video class="movie_bj" src="movie/movie_connpass.mov" autoplay muted></video><br>
+                  <p>イベント開催時に参加者のデータを取得するスクリプトです。</p>
+                  <p>サイト上の参加者リストから参加者名とプロフィールページのURLを取得します。</p>
+                  <a href="https://github.com/ebi0510/getconnpassData">GitHub</a><br>
+                  <button class="btn_close">✖︎</button>
+                </div>
+              </div>
           </div>
           <div class="portfolio">
-            <img class="pic_port" src="picture/portfoliopic.png">
+            <img class="modalBtn" data-modal="modal5" src="picture/portfoliopic.png">
             <p>ポートフォリオサイト</p>
-            <p>このサイトです。突貫で作成したためまだまだ改善点したいところが多いです。</p>
-            <a href="https://github.com/ebi0510/portfolio">GitHub</a>
+              <div id="modal5" class="modal">
+                <div class="modal-content">
+                  <video class="movie" src="movie/movie_portfolio.mov" autoplay muted></video><br>
+                  <p>このサイトです。突貫で作成したためまだまだ改善点したいところが多いです。</p>
+                  <a href="https://github.com/ebi0510/portfolio">GitHub</a><br>
+                  <button class="btn_close">✖︎</button>
+                </div>
+              </div>
           </div>
         </div>
       </div>
@@ -97,5 +128,6 @@
         <p>JavaScript</p>
       </div>
     </div>
+    <script src="index.js"></script>
   </body>
 </html>
